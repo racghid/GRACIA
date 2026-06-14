@@ -35,6 +35,12 @@ strong{
 body{
     background-image: url(WhatsApp\ Image\ 2026-06-14\ at\ 00.41.44.jpeg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 .cool{
     height: 300px;
