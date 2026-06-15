@@ -30,7 +30,6 @@ strong{
 #description{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    color: ;
 }
 body{
     background-image: url(WhatsApp\ Image\ 2026-06-14\ at\ 00.41.44.jpeg);
@@ -63,20 +62,8 @@ p{
 h3{
     text-align: center;
 }
-/* Style pour le PC : On limite la largeur et on centre le contenu */
-header, main, footer {
-  max-width: 1200px;     /* Empêche le site de trop s'étaler sur grand écran */
-  width: 90%;            /* Laisse une petite marge de chaque côté */
-  margin-left: auto;     /* Centre automatiquement le bloc */
-  margin-right: auto;    /* Centre automatiquement le bloc */
-  padding: 20px;         /* Espace à l'intérieur pour que le texte ne colle pas aux bords */
-  box-sizing: border-box;/* Aligne parfaitement les bordures et le padding */
-}
-
-/* Style pour le Téléphone (Écrans de moins de 768px) */
-@media screen and (max-width: 768px) {
-  header, main, footer {
-    width: 100%;         /* Sur mobile, le contenu prend tout l'écran */
-    padding: 15px;       /* On réduit un peu l'espace pour gagner de la place */
-  }
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
